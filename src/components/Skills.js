@@ -11,12 +11,12 @@ import Mongo from '../assets/mongo.png';
 
 const Skills = () => {
     return (
-        <div name='Skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='Skills' className='w-full h-screen bg-[#DDD0C8] text-[#323232]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-                    <p className='py-4'>// These are the technologies I've worked with</p>
+                <div className='mb-5'>
+                    <p className='text-4xl font-bold inline border-b-4 border-pink-600  '>Technical Skills
+                    </p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
