@@ -2,12 +2,16 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div name='Contact' className='p-1 w-full h-screen'>
-            <div className='bg-[#E1B0AC] max-w-[1000px] h-[100%] mx-auto flex-col flex justify-center items-center'>
-                <h1 className='font-bold text-4xl text-[#0a192F] border-b-4 border-pink-600'>Contact</h1>
-                <div className='flex flex-row justify-around items-center  w-full h-[70%]'>
-                    <div className='font-bold self-start mt-10 text-2xl text-[#213F99] h-full w-[500px] border-r-2 border-dashed'>
-                        <b>Address:</b> Brundawan,Colony,Hyderabad Telangana 500077.<br></br>
+        <div name='Contact' className='p-1 w-full h-screen mt-20 mb-5'>
+            <div className=' max-w-[1000px] h-[100%] mx-auto flex-col flex justify-center items-center'>
+                <h1 className='mb-10 font-bold text-4xl text-[#0a192F] border-b-4 border-pink-600 '>Get In Touch</h1>
+                <div className=' w-full flex flex-row justify-between items-center'>
+                    <h1 className='font-bold text-4xl text-[#0a192F] border-b-4 border-pink-600 self-start ms-10'>Contact</h1>
+                    <h1 className=' me-10 font-bold text-4xl text-[#0a192F] border-b-4 border-pink-600 '>Send a Message</h1>
+                </div>
+                <div className='flex md:flex-row flex-col justify-around items-center  w-full h-[70%]'>
+                    <div className='font-bold self-start mt-10 text-2xl text-[#213F99] h-full w-[500px] border-r-2 border-dashed border-black'>
+                        <b>Email:</b>ajay99biradar@gmail.com<br></br>
                         <b>Contact:</b> 8522875956
                     </div>
                     <div className=' h-[350px] w-[350px]'>

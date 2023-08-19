@@ -1,17 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import resume from '../assets/resume.pdf'
 import { FaCloudDownloadAlt } from 'react-icons/fa'
 import pic from '../assets/Ajay.jpeg'
-import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { Link } from 'react-scroll'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 const Home = () => {
-    const [email, setEmail] = useState(false);
-    const handleEmail = () => {
-        console.log("hi");
-        setEmail(!email);
-    }
     return (
         <div name='Home' className='w-[90%] h-screen bg-white flex flex-row justify-around items-center'>
             {/* Social Icons */}
@@ -27,25 +22,27 @@ const Home = () => {
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[50px] flex justify-between items-center' onClick={handleEmail}>
-                        <a className='flex justify-between items-center w-full text-gray-100 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] h-[50px] px-2'>
-                            Email <HiOutlineMail size={30} />
-                        </a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center'>
-                        <a href='/' className='flex justify-between items-center w-full text-gray-100 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] h-[50px] px-2'>
-                            Contact <BsFillPersonLinesFill size={30} />
+
+                    <li >
+                        <a href='' className='w-[130px] h-[60px] flex justify-between items-center'>
+                            <Link
+                                className='flex justify-between items-center w-full text-gray-100 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] h-[50px] px-2'
+                                to="Contact"
+                                smooth={true}
+                                offset={50}
+                                duration={500}>
+                                Contact
+                                <BsFillPersonLinesFill size={30} />
+
+                            </Link>
+
                         </a>
                     </li>
 
                 </ul>
             </div>
-            < div className={email ? 'absolute top-[40%] left-[40%] h-[150px] w-[350px] border-2 border-black bg-[#e2ad38] flex justify-around items-center flex-col text-black font-bold z-10' : 'hidden'} >
-                <h1 className='text-3xl'>Please Mail me at</h1>
-                <h3 className='text-xl mb-2'>ajay99biradar@gmail.com</h3>
-                <button className='text-white bg-black hover:bg-white hover:text-black h-10 w-20 text-[25px] border-2 border-black' onClick={() => setEmail(false)}>Close</button>
-            </div >
-            <div className={email ? 'blur' : 'max-w-[1000px] mx-[120px] px-8 flex flex-col justify-center h-full'}>
+
+            <div className='max-w-[1000px] mx-[120px] px-8 flex flex-col justify-center h-full'>
                 <p className='text-[#4646dd] text-base font-bold'>
                     Hi my name is,
                 </p>
@@ -67,9 +64,9 @@ const Home = () => {
                     </a>
                 </span>
             </div>
-            {email ? <></> : <div className='h-[250px] w-[250px] hidden md:block text-red-700 border-4 p-1 border-[#ed9654] shaodow-md rounded-full filter'>
+            <div className='h-[250px] w-[250px] hidden md:block text-red-700 border-4 p-1 border-[#ed9654] shaodow-md rounded-full filter'>
                 <img src={pic} className='h-full w-full rounded-full object-cover' />
-            </div>}
+            </div>
         </div>
     )
 }
