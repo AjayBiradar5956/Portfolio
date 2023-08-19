@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { FaBars, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import logo from '../assets/logo.png';
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const [ham, setHam] = useState(false);
@@ -11,16 +12,28 @@ const Navbar = () => {
         setHam(!ham);
     }
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-white text-black font-bold'>
             <div>
-                <img src={logo} alt='logo' style={{ width: '80px', height: '70px', borderRadius: '50%' }} />
+                <img src={logo} alt='logo' className='w-[80px] h-[70px] ml-5 my-2' style={{ borderRadius: '50%', border: '1px solid red' }} />
             </div>
 
             {/* Menu */}
             <ul className='hidden md:flex'>
-                <li className='text-xl'>Home</li>
-                <li className='text-xl'>About</li>
-                <li className='text-xl'>Skills</li>
+                <li className='text-xl'>
+                    <Link to="Home" smooth={true} offset={50} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="About" smooth={true} offset={50} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="Skills" smooth={true} offset={50} duration={500}>
+                        Skills
+                    </Link>
+                </li>
                 <li className='text-xl'>Work</li>
                 <li className='text-xl'>Contact</li>
             </ul>
@@ -31,7 +44,7 @@ const Navbar = () => {
             </div>
 
             {/* mobile View */}
-            <ul className={ham ? 'absolute top-0 w-full left-0 h-screen flex flex-col justify-center items-center bg-[#0a192F]' : 'hidden'}>
+            <ul className={ham ? 'absolute top-0 w-full left-0 h-screen flex flex-col justify-center items-center' : 'hidden'}>
                 <li className='py-6 text-4xl'>Home</li>
                 <li className='py-6 text-4xl'>About</li>
                 <li className='py-6 text-4xl'>Skills</li>
