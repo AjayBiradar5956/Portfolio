@@ -18,7 +18,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className='hidden md:block text-lg'>
-                        <p>I'm a passionate and certified Full Stack Developer(MERN Stack) certified by <b>Coding Ninjas</b>. I have pivoted my career into the field of Web Development and have embarked on a journey of constant learning and growth.
+                        <p>I'm a passionate and certified <b>Full Stack Developer(MERN Stack)</b> certified by Coding Ninjas. I have pivoted my career into the field of Web Development and have embarked on a journey of constant learning and growth.
                             <br></br>
                             As a Full-Stack Developer, I posses a diverse skill set that allows me to handle both the Frontend and Backend aspects of web development.
                             <br></br>

@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden md:flex me-10'>
                 <li className='text-xl'>
                     <Link to="Home" smooth={true} offset={50} duration={500}>
                         Home
@@ -38,13 +38,15 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='text-xl'>Work</li>
-                <li className='text-xl'>Contact</li>
+                <li className='text-xl'><Link to="Contact" smooth={true} offset={50} duration={500}>
+                    Contact
+                </Link></li>
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleHam} className='md:hidden text-white z-10 cursor-pointer'>
+            <button onClick={handleHam} className='md:hidden text-white z-10 cursor-pointer'>
                 {!ham ? <FaBars style={{ height: '100px', color: 'black' }} /> : 'X'}
-            </div>
+            </button>
 
             {/* mobile View */}
             <ul className={ham ? 'absolute top-0 w-full left-0 h-screen flex flex-col justify-center items-center bg-[#0a192F] text-white' : 'hidden'}>
@@ -64,7 +66,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>Work</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleHam} to="Contact" smooth={true} offset={50} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
 
