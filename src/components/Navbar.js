@@ -10,13 +10,13 @@ const Navbar = () => {
         setHam(!ham);
     }
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black font-bold'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 z-10 text-black font-bold'>
             <div>
-                <img src={logo} alt='logo' className='shadow-md shadow-[#868bda] w-[80px] hidden sm:block h-[70px] ml-5 my-2' style={{ borderRadius: '50%', border: '1px solid red' }} />
+                <img src={logo} alt='logo' className='shadow-md shadow-[#868bda] w-[80px] hidden sm:block h-[70px] ml-5 my-2 rounded-full' />
             </div>
 
             {/* Menu */}
-            <ul className='hidden md:flex me-10'>
+            <ul className='hidden md:flex me-10 '>
                 <li className='text-xl'>
                     <Link to="Home" smooth={true} offset={50} duration={500}>
                         Home
