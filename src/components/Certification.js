@@ -5,7 +5,6 @@ import fe from '../assets/FE.JPG'
 import be from '../assets/BE.JPG'
 import react from '../assets/react.JPG'
 
-
 const Certification = () => {
     return (
         <div name="Certification" className=' w-full h-auto bg-[#317773] flex text-black flex-col justify-center items-center'>
