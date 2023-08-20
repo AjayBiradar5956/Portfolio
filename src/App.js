@@ -1,16 +1,16 @@
 import Navbar from "./components/Navbar";
-import Home from './components/Home';
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      <Main />
       <About />
       <Skills />
       <Work />
