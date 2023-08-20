@@ -33,7 +33,7 @@ const Contact = () => {
                             action='https://getform.io/f/f2ce87bd-efe8-4ba4-946f-e42a9b96c9f7' method='post'
                             className='flex flex-col justify-center p-5'>
                             <input
-                                type='name'
+                                type='text'
                                 name='name'
                                 placeholder='Enter Name'
                                 className='border-b-2 border-[#000000] p-1 bg-inherit focus:outline-none' />
