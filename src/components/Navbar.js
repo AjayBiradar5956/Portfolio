@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
-
 import logo from '../assets/logo.png';
 import { Link } from 'react-scroll'
 
@@ -10,14 +9,10 @@ const Navbar = () => {
         console.log(ham);
         setHam(!ham);
     }
-
-
     return (
-
-
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black font-bold'>
             <div>
-                <img src={logo} alt='logo' className='w-[80px] hidden sm:block h-[70px] ml-5 my-2' style={{ borderRadius: '50%', border: '1px solid red' }} />
+                <img src={logo} alt='logo' className='shadow-md shadow-[#868bda] w-[80px] hidden sm:block h-[70px] ml-5 my-2' style={{ borderRadius: '50%', border: '1px solid red' }} />
             </div>
 
             {/* Menu */}
@@ -37,7 +32,11 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li className='text-xl'>Work</li>
+                <li className='text-xl'>
+                    <Link to="Work" smooth={true} offset={50} duration={500}>
+                        Work
+                    </Link>
+                </li>
                 <li className='text-xl'><Link to="Contact" smooth={true} offset={50} duration={500}>
                     Contact
                 </Link></li>
@@ -72,11 +71,7 @@ const Navbar = () => {
                     </Link>
                 </li>
             </ul>
-
-
-
         </div>
-
     )
 }
 

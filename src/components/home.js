@@ -22,9 +22,8 @@ const Home = () => {
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-
                     <li >
-                        <a href='' className='w-[130px] h-[60px] flex justify-between items-center'>
+                        <a href='' className='w-[130px] h-[50px] flex justify-between items-center'>
                             <Link
                                 className='flex justify-between items-center w-full text-gray-100 ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] h-[50px] px-2'
                                 to="Contact"
@@ -33,12 +32,9 @@ const Home = () => {
                                 duration={500}>
                                 Contact
                                 <BsFillPersonLinesFill size={30} />
-
                             </Link>
-
                         </a>
                     </li>
-
                 </ul>
             </div>
 
@@ -65,7 +61,7 @@ const Home = () => {
                 </span>
             </div>
             <div className='h-[250px] w-[250px] hidden md:block text-red-700 border-4 p-1 border-[#ed9654] shaodow-md rounded-full filter'>
-                <img src={pic} className='h-full w-full rounded-full object-cover' />
+                <img src={pic} className='h-full w-full rounded-full object-cover hover:scale-110 duration-300 shadow-lg shadow-slate-500' />
             </div>
         </div>
     )
