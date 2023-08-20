@@ -62,13 +62,19 @@ const Work = () => {
                 </div>
                 <div className='bottom-10 left-4 absolute flex flex-row justify-start'>
                     <a
-                        href='https://github.com/AjayBiradar5956/GynxMusicStudio'>
+                        href='https://github.com/AjayBiradar5956/GynxMusicStudio'
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <FaGithub size={40} />
                     </a>
                     <>
                         <a
                             href='https://gynxmusicplayer.onrender.com/'
-                            className='ps-5'>
+                            className='ps-5'
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
                             <BsBoxArrowInUpRight size={40} />
                         </a>
                     </>
@@ -113,11 +119,20 @@ const Work = () => {
                     </ul>
                 </div>
                 <div className='bottom-5 right-4 absolute flex flex-row justify-start'>
-                    <a href='https://github.com/AjayBiradar5956/ReduxEcom'>
+                    <a
+                        href='https://github.com/AjayBiradar5956/ReduxEcom'
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <FaGithub size={40} />
                     </a>
                     <>
-                        <a href='https://redux-ecom-hrod.vercel.app/' className='ps-5'>
+                        <a
+                            href='https://redux-ecom-hrod.vercel.app/'
+                            className='ps-5'
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
                             <BsBoxArrowInUpRight size={40} />
                         </a>
                     </>
