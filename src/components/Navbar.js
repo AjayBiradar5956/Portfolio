@@ -59,6 +59,15 @@ const Navbar = () => {
                 </li>
                 <li className='text-xl'>
                     <Link
+                        to="Certification"
+                        smooth={true}
+                        offset={50}
+                        duration={500}>
+                        Certification
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link
                         to="Contact"
                         smooth={true}
                         offset={50}
@@ -119,14 +128,25 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'><Link
-                    onClick={handleHam}
-                    to="Work"
-                    smooth={true}
-                    offset={50}
-                    duration={500}>
-                    Work
-                </Link>
+                <li className='py-6 text-4xl'>
+                    <Link
+                        onClick={handleHam}
+                        to="Work"
+                        smooth={true}
+                        offset={50}
+                        duration={500}>
+                        Work
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link
+                        onClick={handleHam}
+                        to="Certification"
+                        smooth={true}
+                        offset={50}
+                        duration={500}>
+                        Certification
+                    </Link>
                 </li>
                 <li className='py-6 text-4xl'>
                     <Link
