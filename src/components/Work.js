@@ -39,8 +39,8 @@ const Work = () => {
                     <p>This application provides a feature-rich music player,also enabled with Authentication and Authorization where users can listen to music made by their favorite singer, listen to ton of albums saving them into their own favorites list. Also users can listen to trending songs which have been liked by multiple users.</p>
                     <br></br>
                     <p>Demo Accounts</p>
-                    <p>Email: Pass:</p>
-                    <p>Email: Pass:</p>
+                    <p><b>Email:</b> test@gmail.com <b>Pass:</b>test@123</p>
+                    <p><b>Email:</b> test2@gmail.com <b>Pass:</b>test@123</p>
                     <p>
                         <span className='font-bold text-yellow-300'>Note:</span>
                         This Back-end application is hosted on a free-server, there might be a delay or the website might be down due to certain time limit. Rest assured I would always make sure it keeps running all the time.
