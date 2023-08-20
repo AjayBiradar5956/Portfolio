@@ -7,11 +7,11 @@ import react from '../assets/react.JPG'
 
 const Certification = () => {
     return (
-        <div name="Certification" className=' w-full h-auto bg-[#317773] flex text-black flex-col justify-center items-center'>
+        <div name="Certification" className=' w-[728px] sm:w-full h-auto bg-[#317773] flex text-black flex-col justify-center items-center'>
             <p className='text-4xl pt-[150px]  font-bold inline border-b-4 border-pink-600'>
                 Certification
             </p>
-            <div className=' h-[500px] pb-10 w-[75%] flex flex-wrap justify-evenly pt-5'>
+            <div className=' h-[500px] pb-10 w-[75%] flex flex-wrap justify-evenly my-10'>
                 <div className=' h-[45%] w-[30%]'>
                     <a
                         href='https://drive.google.com/file/d/1QZXNMa9qxVneApeoLeLoeKMmUyVe8XjK/view?usp=sharing' rel="noopener noreferrer" target="_blank">

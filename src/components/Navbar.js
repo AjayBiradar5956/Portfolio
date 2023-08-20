@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ul className='hidden md:flex me-10 '>
+            <ul className='hidden lg:flex me-10 '>
                 <li className='text-xl'>
                     <Link
                         to="Home"
@@ -80,12 +80,12 @@ const Navbar = () => {
             {/* Hamburger */}
             <button
                 onClick={handleHam}
-                className='md:hidden text-white z-10 cursor-pointer'>
+                className='lg:hidden text-white z-10 cursor-pointer'>
                 {!ham
                     ?
-                    <FaBars style={{ height: '100px', color: 'black' }} />
+                    <FaBars size={30} color='black' />
                     :
-                    'X'
+                    <div className='text-4xl pr-4'>X</div>
                 }
             </button>
 
@@ -94,11 +94,11 @@ const Navbar = () => {
                 className=
                 {ham
                     ?
-                    'absolute top-0 w-full left-0 h-screen flex flex-col justify-center items-center bg-[#0a192F] text-white'
+                    'absolute top-0 w-full left-0 h-screen flex flex-col justify-center items-center bg-[#E3B448] text-white'
                     :
                     'hidden'
                 }>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="Home"
@@ -108,7 +108,7 @@ const Navbar = () => {
                         Home
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="About"
@@ -118,7 +118,7 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="Skills"
@@ -128,7 +128,7 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="Work"
@@ -138,7 +138,7 @@ const Navbar = () => {
                         Work
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="Certification"
@@ -148,7 +148,7 @@ const Navbar = () => {
                         Certification
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='p-3 text-4xl'>
                     <Link
                         onClick={handleHam}
                         to="Contact"

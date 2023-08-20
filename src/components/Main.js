@@ -10,7 +10,7 @@ const Main = () => {
     return (
         <div
             name='Home'
-            className='w-[90%] h-screen bg-white flex flex-row justify-around items-center'>
+            className='w-[700px] md:w-full h-screen bg-white flex flex-row text-center md:justify-around items-center'>
             {/* Social Icons */}
             <div className=' hidden lg:flex fixed flex-col top-[35%] left-0 '>
                 <ul>
@@ -52,7 +52,7 @@ const Main = () => {
                 </ul>
             </div>
 
-            <div className='max-w-[1000px] mx-[120px] px-8 flex flex-col justify-center h-full'>
+            <div className='max-w-[1000px] md:mx-[120px] px-8 flex flex-col justify-center md:h-full h-[80%]'>
                 <p className='text-[#4646dd] text-base font-bold'>
                     Hi my name is,
                 </p>
@@ -65,11 +65,11 @@ const Main = () => {
                 <p className='text-[#39466c] max-w-[700px] py-4'>
                     Certified by <b>Coding Ninjas</b>. I enjoy working on every aspect of web development, from user Interface to server logic.
                 </p>
-                <span className='h-[30px] w-[150px]'>
+                <span className='h-[30px] w-[150px] self-center me-10 mb-10'>
                     <a
                         href={resume}
                         download="Ajay Biradar Resume">
-                        <button className='text-black group border-2 border-[#9487df] w-[180px] px-3 py-2 my-2 flex justify-between items-center hover:scale-110 duration-300 hover:bg-[#dfc5eb] hover:border-black'>
+                        <button className='text-black group  border-2 border-[#9487df] w-[180px] px-3 py-2 my-2 flex justify-between items-center hover:scale-110 duration-300 hover:bg-[#dfc5eb] hover:border-black'>
                             <span className='text-2xl'>
                                 Resume
                             </span>
@@ -79,7 +79,7 @@ const Main = () => {
                 </span>
             </div>
             <div
-                className='h-[250px] w-[250px] hidden md:block text-red-700 border-4 p-1 border-[#ed9654] shaodow-md rounded-full filter'>
+                className='lg:h-[250px] lg:w-[250px] md:h-[200px] md:w-[300px] hidden md:block text-red-700 border-4 p-1 mr-10 border-[#ed9654] shaodow-md rounded-full filter'>
                 <img
                     src={pic}
                     alt='Profile Pic'

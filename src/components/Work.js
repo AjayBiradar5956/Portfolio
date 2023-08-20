@@ -13,7 +13,7 @@ const Work = () => {
                 <div className='text-4xl font-bold'>
                     Somethings I've Build
                 </div>
-                <div className='border-t-2 border-gray-500 w-[600px] self-center mx-5'></div>
+                <div className='border-t-2 border-gray-500 w-0 md:w-[350px] lg:w-[550px] self-center mx-5'></div>
             </div>
             {/* project overall container */}
 

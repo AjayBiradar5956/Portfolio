@@ -15,73 +15,73 @@ const Skills = () => {
     return (
         <div
             name='Skills'
-            className="h-screen w-full bg-[#DDD0C8] text-[#323232] flex flex-col justify-center items-center pt-10">
+            className="h-screen w-[728px] md:w-full bg-[#DDD0C8] text-[#323232] flex flex-col justify-center items-center pt-36">
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
                 Technical Skills
             </p>
-            <div className="w-full mt-10 lg:w-[1000px] h-[350px] flex flex-row flex-wrap justify-center md:justify-between items-center">
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+            <div className="w-[550px]  mt-10 lg:w-[1000px] h-[350px] flex flex-row flex-wrap justify-evenly md:justify-between items-center mb-32">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className="shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={java}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={javascript}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={html}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={css}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={node}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={react}
                     />
                 </div>
 
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={redux}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={mongo}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={mysql}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={github}
                     />
                 </div>
-                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
+                <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[100px] md:h-[100px] h-[80px] w-[80px]   ">
                     <img
                         className=" shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"
                         src={tailwind}
