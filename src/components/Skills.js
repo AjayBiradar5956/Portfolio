@@ -19,7 +19,7 @@ const Skills = () => {
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
                 Technical Skills
             </p>
-            <div className="w-full mt-5 lg:w-[1000px] h-[350px] flex flex-row flex-wrap justify-center md:justify-between items-center">
+            <div className="w-full mt-10 lg:w-[1000px] h-[350px] flex flex-row flex-wrap justify-center md:justify-between items-center">
                 <div className="lg:w-[150px] lg:h-[150px] mb-5 md:mb-0 md:w-[150px] md:h-[150px] h-[100px] w-[100px]">
                     <img
                         className="shadow-md shadow-[#323232] hover:scale-110 duration-500 h-full w-full rounded-full"

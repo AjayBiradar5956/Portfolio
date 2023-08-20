@@ -18,7 +18,7 @@ const Work = () => {
             {/* project overall container */}
 
             {/* Gynx Music Studio */}
-            <div className='h-[800px] w-[75%] mt-10 relative'>
+            <div className='h-[800px] w-[75%] mt-10 relative border-b-2 border-gray-300'>
                 <span className='ps-5 top-20 absolute h-[100px] w-[250px]'>
                     <span className=' text-lg font-bold text-blue-400 font-sans'>
                         Featured Project
