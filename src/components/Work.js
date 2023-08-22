@@ -38,7 +38,7 @@ const Work = () => {
                 </div>
                 <div className='h-auto text-lg font-serif text-white bg-blue-600 p-3 w-[550px] right-0 bottom-[200px] absolute'>
                     <p>
-                        This application is a pure Javascript Project, which helps a user to fetch any dish and view all of its details. The information is provided by FreeMealApi, Here the user can also mark certain dishes as his favorites for ease access in future, application makes use of Local Storage to provide this feature. Application has been made in such a manner that all the info is made available along with a youtube link for making of the dish.
+                        This application is a pure <b>Javascript Project</b>, which helps a user to fetch any dish and view all of its details. The information is provided by <b>FreeMealApi</b>, Here the user can also mark certain dishes as his favorites for ease access in future, application makes use of <b>Local Storage</b> to provide this feature. Application has been made in such a manner that all the info is made available along with a youtube link for making of the dish.
                     </p>
                     <br></br>
                     <p>
@@ -61,7 +61,7 @@ const Work = () => {
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <FaGithub size={40} />
+                        <FaGithub size={40} className='hover:scale-150 hover:duration-300' />
                     </a>
                     <>
                         <a
@@ -70,7 +70,7 @@ const Work = () => {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <BsBoxArrowInUpRight size={40} />
+                            <BsBoxArrowInUpRight size={40} className='hover:scale-150 hover:duration-300' />
                         </a>
                     </>
                 </div>
@@ -95,9 +95,9 @@ const Work = () => {
                     />
                 </div>
                 <div className='h-auto text-lg font-serif text-white bg-blue-600 p-3 w-[550px] left-0 bottom-[200px] absolute'>
-                    <p>This application provides a feature-rich music player,also enabled with Authentication and Authorization where users can listen to music made by their favorite singer, listen to ton of albums saving them into their own favorites list. Also users can listen to trending songs which have been liked by multiple users.</p>
+                    <p>This <b>NodeJs</b> application provides a feature-rich music player,also enabled with <b>Authentication/Authorization and GoogleOAuth</b> where users can listen to music made by their favorite singer, listen to ton of albums saving them into their own favorites list. Also users can listen to trending songs which have been liked by multiple users.</p>
                     <br></br>
-                    <p>Demo Accounts</p>
+                    <p><b>Demo Accounts</b></p>
                     <p><b>Email:</b> test@gmail.com <b>Pass:</b>test@123</p>
                     <p><b>Email:</b> test2@gmail.com <b>Pass:</b>test@123</p>
                     <p>
@@ -125,7 +125,7 @@ const Work = () => {
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <FaGithub size={40} />
+                        <FaGithub size={40} className='hover:scale-150 hover:duration-300' />
                     </a>
                     <>
                         <a
@@ -134,7 +134,7 @@ const Work = () => {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <BsBoxArrowInUpRight size={40} />
+                            <BsBoxArrowInUpRight size={40} className='hover:scale-150 hover:duration-300' />
                         </a>
                     </>
                 </div>
@@ -183,7 +183,7 @@ const Work = () => {
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <FaGithub size={40} />
+                        <FaGithub size={40} className='hover:scale-150 hover:duration-300' />
                     </a>
                     <>
                         <a
@@ -192,7 +192,7 @@ const Work = () => {
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            <BsBoxArrowInUpRight size={40} />
+                            <BsBoxArrowInUpRight size={40} className='hover:scale-150 hover:duration-300' />
                         </a>
                     </>
                 </div>
