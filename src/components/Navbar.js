@@ -21,7 +21,7 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className='hidden lg:flex me-10 '>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="Home"
                         smooth={true}
@@ -30,7 +30,7 @@ const Navbar = () => {
                         Home
                     </Link>
                 </li>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="About"
                         smooth={true}
@@ -39,7 +39,7 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="Skills"
                         smooth={true}
@@ -48,7 +48,7 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="Work"
                         smooth={true}
@@ -57,7 +57,7 @@ const Navbar = () => {
                         Work
                     </Link>
                 </li>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="Certification"
                         smooth={true}
@@ -66,7 +66,7 @@ const Navbar = () => {
                         Certification
                     </Link>
                 </li>
-                <li className='text-xl'>
+                <li className='text-xl hover:text-orange-500'>
                     <Link
                         to="Contact"
                         smooth={true}
@@ -98,7 +98,7 @@ const Navbar = () => {
                     :
                     'hidden'
                 }>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="Home"
@@ -108,7 +108,7 @@ const Navbar = () => {
                         Home
                     </Link>
                 </li>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="About"
@@ -118,7 +118,7 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="Skills"
@@ -128,7 +128,7 @@ const Navbar = () => {
                         Skills
                     </Link>
                 </li>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="Work"
@@ -138,7 +138,7 @@ const Navbar = () => {
                         Work
                     </Link>
                 </li>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="Certification"
@@ -148,7 +148,7 @@ const Navbar = () => {
                         Certification
                     </Link>
                 </li>
-                <li className='p-3 text-4xl'>
+                <li className='p-3 text-4xl hover:text-orange-500'>
                     <Link
                         onClick={handleHam}
                         to="Contact"
